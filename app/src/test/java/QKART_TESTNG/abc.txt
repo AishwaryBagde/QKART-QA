@@ -1,0 +1,32 @@
+ <classes>
+          <class name="QKART_TESTNG.QKART_Tests">
+                <methods>
+                    <include name ="TestCase01"></include>
+                    <include name ="TestCase02"></include>
+                    <include name ="TestCase03"></include>
+                    <include name ="TestCase04"></include>
+                    <include name ="TestCase05"></include>
+                    <include name ="TestCase06"></include>
+                    <include name ="TestCase07"></include>
+                    <include name ="TestCase08"></include>
+                    <include name ="TestCase09"></include>
+                    <include name ="TestCase10"></include>
+                    <include name ="TestCase11"></include>
+                    <include name ="TestCase12"></include>
+                </methods>
+          </class>
+        </classes>
+
+
+
+        <packages>
+                 <package name ="QKART_TESTNG"/>
+         </packages>
+
+
+          <groups>
+            <run>
+              <include name = "Sanity_Test"></include>
+              <include name ="Regression_Test"></include>
+            </run>
+        </groups>
